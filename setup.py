@@ -39,15 +39,15 @@ def create_version_file():
         f.write("__version__ = '{}'\n".format(version))
 
 requirements = [
-    'numpy',
-    'tqdm',
+#    'numpy',
+#    'tqdm',
     'nose',
     'portalocker',
-    'torch>=1.4.0',
-    'torchvision>=0.5.0',
-    'Pillow',
-    'scipy',
-    'requests',
+#    'torch>=1.4.0',
+#    'torchvision>=0.5.0',
+#    'Pillow',
+#    'scipy',
+#    'requests',
 ]
 
 def get_extensions():
